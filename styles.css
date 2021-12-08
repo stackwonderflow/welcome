@@ -16,8 +16,8 @@
     font-size: 24px;
     font-weight: 900;
     color: rgb(0, 0, 0);
-    background: white;
-    padding: 4px 32px;
+    /* background: white; */
+    /* padding: 4px 32px; */
 }
 
 ul {
@@ -29,8 +29,15 @@ ul {
 }
 
 a {
-    font-size: 22px;
-    background: white;
+    font-size: 19px;
+    /* background: white; */
     padding: 8px;
     text-decoration: none; /* this removes the line under the links */
+}
+
+footer {
+    background:red;
+    padding: 12px 20px;
+    color: white;
+    text-align: center;
 }
