@@ -1,23 +1,55 @@
 * {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .header {
     font-family: monospace;
-    background: papayawhip;
-  
-    padding: 8px;
+    /* padding-bottom: 30px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.mid {
-    font-size: 24px;
-    font-weight: 900;
-    color: rgb(0, 0, 0);
-    /* background: white; */
-    /* padding: 4px 32px; */
+.footer {
+    color: #929292;
+    font-size: 80%;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: auto;
+    padding: 60px 30px
+}
+
+.blog {
+    padding-bottom: 30px;
+}
+
+.postTitle {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.postList {
+    list-style: none;
+}
+
+.postItem {
+    padding: 10px 0 10px 0;
+}
+
+.postDate {
+    font-size: 1em;
+    font-style: italic;;
+}
+
+.postMeta { /* Host post metadata */
+
+}
+
+h1 {
+    margin-bottom: 5px;;
 }
 
 ul {
@@ -29,15 +61,16 @@ ul {
 }
 
 a {
+    text-decoration: none;/*  this removes the line under the links */
     font-size: 19px;
     /* background: white; */
-    padding: 8px;
-    text-decoration: none; /* this removes the line under the links */
+    padding-bottom: 1px;
+    border-bottom: 1px solid;
 }
 
-footer {
-    background:red;
-    padding: 12px 20px;
-    color: white;
-    text-align: center;
+a:hover {
+    color:navy;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid navy;
 }

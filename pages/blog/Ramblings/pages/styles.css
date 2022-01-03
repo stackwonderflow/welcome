@@ -17,8 +17,6 @@ ul {
     gap: 8px;
 }
 
-.post {
-    font-size: 1em;
-    line-height: 150%;
-    margin-bottom: 15px;
+.gibpadding {
+    padding: 1rem
 }
