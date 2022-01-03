@@ -41,14 +41,19 @@
 
 .postDate {
     font-size: 1em;
-    font-style: italic;;
+    font-style: italic;
 }
 
 .postMeta { /* Host post metadata */
 
 }
 
+.postContent {
+    padding-top: 20px;
+}
+
 h1 {
+    margin-top: 0px;
     margin-bottom: 5px;
 }
 
