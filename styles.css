@@ -66,7 +66,7 @@ ul {
 }
 
 a {
-    text-decoration: none;/*  this removes the line under the links */
+    text-decoration: none !important;/*  this removes the line under the links */
     font-size: 19px;
     /* background: white; */
     padding-bottom: 1px;
@@ -74,7 +74,64 @@ a {
 
 a:hover {
     color:navy;
-    text-decoration: none;
+    text-decoration: none !important;
     padding-bottom: 1px;
     border-bottom: 1px solid navy;
 }
+
+/* Change me */
+.jelly-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  
+  .jelly-text {
+    /* color: black; */
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .jelly-button:hover .jelly-text {
+    animation: jelly 0.5s;
+  }
+  
+  @keyframes jelly {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    75% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+/* change me 2 */
+.stretch-button {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .stretch-text {
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+  }
+  
+  .stretch-button:hover .stretch-text {
+    transform: scale(1.2);
+  }
