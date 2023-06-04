@@ -79,19 +79,19 @@ a:hover {
     border-bottom: 1px solid navy;
 }
 
-/* Change me */
+
 .jelly-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    background-color: transparent;
+    /* background-color: transparent; */
   }
   
   .jelly-text {
     /* color: black; */
     font-weight: bold;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.4s ease-in-out;
   }
   
   .jelly-button:hover .jelly-text {
@@ -103,35 +103,15 @@ a:hover {
       transform: scale(1);
     }
     25% {
-      transform: scale(1.1);
-    }
-    50% {
       transform: scale(0.9);
     }
-    75% {
+    50% {
       transform: scale(1.1);
+    }
+    75% {
+      transform: scale(0.9);
     }
     100% {
       transform: scale(1);
     }
-  }
-
-/* change me 2 */
-.stretch-button {
-    display: inline-block;
-    text-decoration: none;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .stretch-text {
-    color: black;
-    font-weight: bold;
-    display: inline-block;
-    transition: transform 0.3s ease-in-out;
-    transform-origin: center;
-  }
-  
-  .stretch-button:hover .stretch-text {
-    transform: scale(1.2);
   }
