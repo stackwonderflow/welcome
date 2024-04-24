@@ -1,0 +1,40 @@
+<!-- OnMentorship.svelte -->
+
+<script>
+    import './styles.css';
+</script>
+
+<div class="wrapper">
+    <a href="index.svelte">Home</a>
+    
+    <div class="postTitle">
+        <h1>On Mentorship</h1>
+    </div>
+    
+    <div class="postDate">
+        <p style="margin-bottom: 0px;margin-top: 0px;">2023 Jun 3</p>
+    </div>
+    
+    <div class="postMeta">
+        <span class="readingTime" title="Estimated read time">1 mins</span>
+    </div>
+    
+    <div class="postContent">
+        <p>Encourage your student in making mistakes</p>
+        
+        <p><strong>On Agency: </strong>Less self-conscious they are, more likely to reach flow state</p>
+        <p><strong>Repetition: </strong>Try phrasing topics differently until your mentee can articulate the main concepts</p>
+        
+        <h4>tl;dr:</h4>
+        <ol>
+            <li>Comfort</li>
+            <li>Variety</li>
+        </ol>
+    </div>
+
+    <div class="footer">
+        <div class="copyright">
+            © {new Date().getFullYear()} Emanuel Antablin
+        </div>
+    </div>
+</div>
