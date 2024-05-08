@@ -1,0 +1,15 @@
+<!-- BrazilianJiuJitsu.svelte -->
+
+<script>
+    import './../../../styles.css';
+</script>
+
+<div>
+    <a href="./../../../index.html">Home</a> <!-- Looong way home -->
+    <a href="./../../blog.html">Blogs</a>
+    <p>
+        Welcome to a newbie's thoughts and advice on BJJ
+    </p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Pankration_panathenaic_amphora_BM_VaseB610.jpg/800px-Pankration_panathenaic_amphora_BM_VaseB610.jpg" alt="A painting on a vase of two wrestlers, one about to get guillotined; a choke that applies pressure to the windpipe">
+</div>

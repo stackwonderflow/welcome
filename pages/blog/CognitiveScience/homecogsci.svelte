@@ -1,0 +1,14 @@
+<!-- cognitivescience.svelte -->
+
+<script>
+    import './../../../styles.css';
+</script>
+
+<div>
+    <a href="./../../../index.html">Home</a>
+    <a href="./../../blog.html">Blog</a>
+    
+    <h1>Under Construction</h1>
+    <p>At a later point some posts on Psychology/AI/Neuroscience/Anthropology will be here</p>
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgreatlakesledger.com%2Fwp-content%2Fuploads%2F2019%2F12%2Fbrain.jpg&f=1&nofb=1" alt="A simulated neon human brain">
+</div>
