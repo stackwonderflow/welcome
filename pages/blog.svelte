@@ -6,10 +6,10 @@
 
 <div class="links">
     <a href="./../index.svelte">Home</a>
-    <a href="./blog/Ramblings/homeramb.html">Ramblings</a>
-    <a href="./blog/CognitiveScience/homecogsci.html">Cognitive Science</a>
-    <a href="./blog/Security/homesec.html">Security</a>
-    <a href="./blog/BJJ/homebjj.html">Jiu-Jitsu</a>
+    <a href="./blog/Ramblings/homeramb.svelte">Ramblings</a>
+    <a href="./blog/CognitiveScience/homecogsci.svelte">Cognitive Science</a>
+    <a href="./blog/Security/homesec.svelte">Security</a>
+    <a href="./blog/BJJ/homebjj.svelte">Jiu-Jitsu</a>
 </div>
 
 <p>
